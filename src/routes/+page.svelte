@@ -24,7 +24,6 @@
         let f_description = document.getElementById('desc').value;
         let f_priorite = Number(document.getElementById('priorite').value);
         let newTask = new tache(f_titre, f_description, f_priorite);
-        console.log(newTask);
         list = [...list, newTask];
     };
 </script>
